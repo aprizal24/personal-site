@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tw:run": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "tw:run": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "webp": "npx webpack ./src/main.js"
   },
   "keywords": [],
   "author": "",

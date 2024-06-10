@@ -1,0 +1,1 @@
+(()=>{const t=document.getElementById("animatedText");let e=0;!function n(){e<15&&(t.textContent+="Hi, i'm Aprizal".charAt(e),e++,setTimeout(n,150))}()})();
