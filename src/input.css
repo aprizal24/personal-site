@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #fontH {
+    font-family: 'onest', serif;
+  }
+  .font-Concert {
+    font-family: 'Concert One', serif;
+  }
+  #textGrad {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#B45BEA] via-[#8d25ce] to-[#3C7EFF];
+  }
+}
